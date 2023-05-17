@@ -31,6 +31,55 @@
 /* FILE EMD */
 
 /* BUTTON */
+.news_more,
+.stat_morebox {
+    width: auto;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+
+.news_more > a,
+.stat_morebox > a {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    position: relative;
+    padding: 13px 40px;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: -1px;
+    background-color: #fff;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    color: #707070;
+    line-height: 27px;
+}
+
+.news_more > a:hover,
+.stat_morebox > a:hover {
+    background-color: #ea5514;
+    border-color: #ea5514;
+    color: #fff;
+}
+
+@media all and (max-width: 1441px) {
+    .news_more > a, .stat_morebox > a {
+        font-size: 1rem;
+    }
+}
+
+@media all and (max-width: 481px) {
+    .news_more > a, .stat_morebox > a {
+        padding: 6px 30px;
+        font-size: 0.875rem;
+    }
+}
+
 /* BUTTON END */
 
 /* SELECT */

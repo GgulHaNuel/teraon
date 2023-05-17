@@ -1,1 +1,354 @@
 @charset "UTF-8";
+
+/* FOOTER SETTING */
+#new_ft {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: #6e6e6e;
+}
+
+#new_ft .ft_area {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#new_ft .ft_con {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#new_ft .ft_size {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 40px 140px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+@media all and (max-width: 1441px) {
+    #new_ft .ft_size {
+        padding: 30px;
+    }
+}
+
+@media all and (max-width: 885px) {
+    #new_ft .ft_size {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+}
+
+/* FOOTER SETTING END */
+
+/* FOOTER */
+#new_ft .ft_txt {
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+#new_ft .ft_txt .ft_logo {
+    width: 100%;
+    max-width: 210px;
+    height: 46px;
+    position: relative;
+    background-image: url(../img/ft_logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    margin-bottom: 40px;
+}
+
+#new_ft .ft_txt > p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+#new_ft .ft_txt > p > span {
+    font-size: 0.9375rem;
+}
+
+#new_ft .ft_link {
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+#new_ft .ft_link .link_site {
+    width: auto;
+    height: auto;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    gap: 35px;
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+
+#new_ft .ft_link .link_site > li {
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+#new_ft .ft_link .link_site > li > a {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#new_ft .ft_link .link_site > li > a > span {
+    display: block;
+    width: 15px;
+    height: 13px;
+    background-image: url(../img/site_arrows_w.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+#new_ft .ft_link .link_site > li .deps_site {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 34px;
+    background-color: #fff;
+    border: 1px solid #6e6e6e;
+    padding: 5px 0;
+    display: none;
+}
+
+#new_ft .ft_link .link_site > li .deps_site > li {
+    text-align: center;
+}
+
+#new_ft .ft_link .link_site > li .deps_site > li > a {
+    font-size: 0.9375rem;
+    font-weight: 500;
+    display: block;
+    padding: 5px 0;
+}
+
+#new_ft .ft_link .link_site > li .deps_site > li > a:hover {
+    color: #d35222;
+}
+
+#new_ft .ft_link .down_link {
+    width: auto;
+    height: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 25px;
+}
+
+#new_ft .ft_link .down_link > li {
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+#new_ft .ft_link .down_link > li.link_item > a {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: -0.5px;
+}
+
+#new_ft .ft_link .down_link > li.down_item > a {
+    display: block;
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    background-color: #fff;
+    color: #6e6e6e;
+    padding: 3px 17px;
+    border-radius: 10px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+#new_ft .ft_link .down_link > li.down_item > a:hover {
+    background-color: #d35222;
+    color: #fff;
+}
+
+@media all and (max-width: 1441px) {
+    #new_ft .ft_txt .ft_logo {
+        max-width: 160px;
+        margin-bottom: 20px;
+    }
+
+    #new_ft .ft_txt > p {
+        font-size: 1rem;
+        line-height: 25px;
+    }
+
+    #new_ft .ft_link .link_site {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -moz-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    #new_ft .ft_link .link_site > li > a {
+        font-size: 1rem;
+    }
+
+    #new_ft .ft_link .link_site > li .deps_site {
+        bottom: 29px;
+    }
+
+    #new_ft .ft_link .down_link {
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -moz-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        gap: 15px;
+    }
+
+    #new_ft .ft_link .down_link > li.link_item > a {
+        font-size: 1rem;
+    }
+
+    #new_ft .ft_link .down_link > li.down_item > a {
+        font-size: 0.9375rem;
+    }
+}
+
+@media all and (max-width: 885px) {
+    #new_ft .ft_txt {
+        width: 100%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        gap: 50px;
+        margin-bottom: 20px;
+    }
+
+    #new_ft .ft_txt .ft_logo {
+        margin-bottom: 0;
+    }
+
+    #new_ft .ft_link {
+        width: 100%;
+        padding-left: 210px;
+    }
+}
+
+@media all and (max-width: 481px) {
+    #new_ft .ft_size {
+        padding: 20px 15px;
+    }
+
+    #new_ft .ft_txt {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    #new_ft .ft_txt .ft_logo {
+        max-width: 100px;
+        height: 23px;
+    }
+
+    #new_ft .ft_txt > p {
+        font-size: 0.8125rem;
+        letter-spacing: -0.5px;
+    }
+
+    #new_ft .ft_txt > p > span {
+        font-size: 0.75rem;
+    }
+
+    #new_ft .ft_link {
+        padding-left: 0;
+    }
+
+    #new_ft .ft_link .link_site {
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -moz-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    #new_ft .ft_link .link_site > li > a {
+        font-size: 0.8125rem;
+    }
+
+    #new_ft .ft_link .link_site > li > a > span {
+        width: 12px;
+    }
+
+    #new_ft .ft_link .down_link {
+        -webkit-box-pack: left;
+        -webkit-justify-content: left;
+        -moz-box-pack: left;
+        -ms-flex-pack: left;
+        justify-content: left;
+    }
+
+    #new_ft .ft_link .down_link > li.link_item > a {
+        font-size: 0.8125rem;
+    }
+
+    #new_ft .ft_link .down_link > li.down_item > a {
+        font-size: 0.8125rem;
+    }
+}
+
+/* FOOTER END */
