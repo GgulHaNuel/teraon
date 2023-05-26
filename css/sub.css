@@ -5,6 +5,7 @@
     width: 100%;
     height: auto;
     position: relative;
+    overflow: hidden;
 }
 
 #sub_sc .sub_sc_area {
