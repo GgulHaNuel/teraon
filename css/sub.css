@@ -589,7 +589,8 @@
         gap: 10px;
     }
 
-    #VESTATON_POP .pop_click_con .pop_clickimg {
+    #VESTATON_POP .pop_click_con .pop_clickimg,
+    #VESTA_EV .pop_click_con .pop_clickimg {
         width: -webkit-calc((100% - 10px) - 135px);
         width: -moz-calc((100% - 10px) - 135px);
         width: calc((100% - 10px) - 135px);
@@ -612,11 +613,13 @@
         flex-wrap: wrap;
     }
 
-    #VESTATON_POP .pop_click_con .pop_clickimg {
+    #VESTATON_POP .pop_click_con .pop_clickimg,
+    #VESTA_EV .pop_click_con .pop_clickimg {
         width: 100%;
     }
 
-    #VESTATON_POP .pop_click_con .pop_clickimg .img_cont {
+    #VESTATON_POP .pop_click_con .pop_clickimg .img_cont,
+    #VESTA_EV .pop_click_con .pop_clickimg .img_cont {
         height: 50vw;
     }
 
