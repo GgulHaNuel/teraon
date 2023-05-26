@@ -1113,12 +1113,6 @@
 .test_itembox .test_td > li .test_thumbtxt > p {
     font-size: 1rem;
     font-weight: 400;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    gap: 8px;
     line-height: 24px;
 }
 
@@ -4007,6 +4001,14 @@
     position: absolute;
     right: 5px;
     top: -15px;
+    -webkit-transition: right .3s ease-in-out;
+    -o-transition: right .3s ease-in-out;
+    -moz-transition: right .3s ease-in-out;
+    transition: right .3s ease-in-out;
+}
+
+.vesta_app_con .vesta_app_box .app_item > a:hover .app_txt > span {
+    right: -10px;
 }
 
 .vesta_app_con .app_cate_box {
@@ -4522,7 +4524,6 @@
     font-size: 0.875rem;
     font-weight: 500;
     color: #464646;
-    letter-spacing: -0.5px;
     display: none;
 }
 

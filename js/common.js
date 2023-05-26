@@ -59,17 +59,13 @@ document.addEventListener('DOMContentLoaded', function () {
             slidesPerGroup: 1,
             spaceBetween: 0,
             speed: 500,
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
             navigation: {
                 nextEl: '#HISNEXT',
                 prevEl: '#HISPREV',
             },
             breakpoints: {
                 885: {
-                    slidesPerGroup: 2,
+                    slidesPerGroup: 1,
                 },
             },
         });
@@ -82,10 +78,6 @@ document.addEventListener('DOMContentLoaded', function () {
             slidesPerGroup: 1,
             spaceBetween: 0,
             speed: 500,
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
             navigation: {
                 nextEl: '#CARNEXT',
                 prevEl: '#CARPREV',
