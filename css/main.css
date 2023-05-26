@@ -24,8 +24,7 @@
 /* SECTION CONT */
 .sec_cont {
     width: 100%;
-    height: auto;
-    min-height: 100vh;
+    height: 100vh;
     position: relative;
     overflow: hidden;
 }
@@ -117,8 +116,8 @@
 }
 
 .seccont_box .sec_videobox {
-    width: 55%;
-    height: 500px;
+    width: 50%;
+    height: 28vw;
     position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
@@ -127,7 +126,6 @@
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
     right: 0;
-    background-color: #bbb;
     overflow: hidden;
 }
 
@@ -176,6 +174,7 @@
 
 @media all and (max-width: 885px) {
     .sec_cont {
+        height: auto;
         min-height: auto;
         padding-top: 158px;
         padding-bottom: 100px;
